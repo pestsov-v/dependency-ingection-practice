@@ -1,11 +1,12 @@
 {
   "name": "dependency-ingection-practice",
-  "type": "module",
+  "type": "commonjs",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev:server": "nodemon ./dist/index.js"
+    "dev:server": "nodemon ./dist/main.js",
+    "dev:build": "tsc"
   },
   "repository": {
     "type": "git",
