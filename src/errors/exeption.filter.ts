@@ -1,3 +1,4 @@
+import 'reflect-metadata';
 import { NextFunction, Request, Response } from "express";
 import { inject, injectable } from "inversify";
 import { ILogger } from "../logger/logger.interface";

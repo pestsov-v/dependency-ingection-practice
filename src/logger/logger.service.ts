@@ -1,3 +1,4 @@
+import 'reflect-metadata';
 import { injectable } from 'inversify';
 import {Logger} from 'tslog'
 import { ILogger } from './logger.interface';

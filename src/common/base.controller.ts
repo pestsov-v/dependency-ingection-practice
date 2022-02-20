@@ -1,3 +1,4 @@
+import 'reflect-metadata';
 import { Response, Router } from "express";
 import { injectable } from "inversify";
 import { ILogger } from "../logger/logger.interface";
