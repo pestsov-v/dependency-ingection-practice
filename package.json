@@ -21,7 +21,9 @@
   "homepage": "https://github.com/AveselsJS/dependency-ingection-practice#readme",
   "dependencies": {
     "express": "^4.17.2",
+    "inversify": "^6.0.1",
     "nodemon": "^2.0.15",
+    "reflect-metadata": "^0.1.13",
     "tslog": "^3.3.2"
   },
   "devDependencies": {
